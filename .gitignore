@@ -1,3 +1,5 @@
+# OPERATING SYSTEM SPECIFIC FILES
+
 # macOS
 .DS_Store
 .AppleDouble
@@ -7,7 +9,6 @@
 
 Icon?
 Thumbs.db
-
 
 # Windows
 Thumbs.db
@@ -22,6 +23,14 @@ ntuser.ini
 *.db
 
 
-# Development Tools
+# DEVELOPMENT TOOLS
 .vscode/
 .idea/
+
+
+# PROJECT FILES
+
+# gtzan is ~1.2GB, so we don't want to commit it to git/github
+# we'll just download it from the source when we need it:
+# ./src/data-pipeline/dataset_downloader.py
+dataset/raw/gtzan/
