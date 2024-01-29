@@ -1,0 +1,16 @@
+# data processing, analysis, and visualization
+datasets
+numpy
+pandas
+matplotlib
+
+# audio processing
+soundfile       # for reading and writing audio files
+librosa         # for audio analysis and feature extraction
+
+# deep learning framework for building and training models
+tensorflow      # tensorflow includes a high-level version of Keras
+# keras           # uncomment if you need to install keras separately
+
+# model evaluation
+scikit-learn
